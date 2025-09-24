@@ -68,35 +68,6 @@ Motivación intrínseca, narrativa, recompensas frecuentes y dificultad adaptati
 
 ---
 
-## Patrones de Diseño y Componentes Reutilizables
-
-### Component Library sugerida
-
-```javascript
-const designSystem = {
-  ConceptCard: {
-    descripcion: "Tarjeta 3D que gira al hover mostrando ejemplo",
-    vibe: "Definición al frente y ejemplo atrás; borde con gradiente luminoso"
-  },
-  ProgressRing: {
-    descripcion: "Anillo circular de progreso con partículas",
-    vibe: "Estilo futurista; emite partículas doradas al completar secciones"
-  },
-  InteractivePromptBox: {
-    descripcion: "Editor de prompts con preview en tiempo real",
-    vibe: "Vista dividida; syntax highlighting y animación de typing"
-  },
-  KnowledgeGraph: {
-    descripcion: "Visualización 3D de conexiones entre conceptos",
-    vibe: "Nodos que pulsan luz; aristas brillan on-hover"
-  },
-  AIAssistantOrb: {
-    descripcion: "Asistente flotante context-aware",
-    vibe: "Orbe tipo Jarvis que sigue el cursor y ofrece ayuda con TTS opcional"
-  }
-};
-```
-
 ### Micro-interacciones esenciales
 
 1. **Haptic-style feedback:** botones con _press depth_, micro-vibración visual, ripple al clic.  
@@ -104,35 +75,6 @@ const designSystem = {
 3. **Transiciones contextuales:** morphing entre vistas, parallax y _stagger_ en listas.  
 4. **Feedback de éxito:** confetti con física, _sound FX_ sutiles (whoosh/ding/pop), flash sutil acorde al logro.  
 5. **Easter eggs educativos:** Konami code = “modo experto”, tooltips con fun facts al hover prolongado, animaciones especiales en milestones.
-
----
-
-## Flujos de Usuario Alternativos
-
-### Flow 1: Onboarding Adaptativo
-
-1. **Bienvenida:** “¿Cómo prefieres aprender?” → **Visual / Textual / Hands-on** (adapta el UI).  
-2. **Quick Assessment** (3 swipes) → **Novato / Intermedio / Avanzado**.  
-3. **Personalización:** tiempo (5/15/30/ilimitado), meta (Aprender/Practicar/Crear), intereses (bubbles).  
-4. **Primera victoria rápida:** mini-reto + celebración + primer achievement.
-
-### Flow 2: Learning Path Personalizado (Metro Map)
-
-- Líneas = rutas (Beginner, Advanced Express, Creative)  
-- Estaciones = conceptos; intersecciones = cruces multi-área  
-- Express routes para saltar contenido dominado  
-- “En construcción” para próximos módulos  
-- Avatar indica posición actual; siguiente parada recomendada brilla  
-- “Ticket de viaje” = progreso del día
-
-### Flow 3: Modo Colaborativo
-
-- Salas de estudio (máx. 6) con pizarra compartida  
-- Pair programming de prompts en tiempo real  
-- Competencias de velocidad (mejor prompt)  
-- Modo profesor (screen-share y explicación)  
-- Chat con reacciones/stickers de AgenticAI  
-- Sistema de **kudos** y leaderboard semanal
 
 ---
 
