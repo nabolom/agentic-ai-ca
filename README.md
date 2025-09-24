@@ -1,10 +1,13 @@
 # Reto de Diseño: **AgenticHub – Asistente de Aprendizaje Personalizado**
 
+![Alt Text](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnByOGd3bzBtaWFncGhtazR3eDVhMndwM3FtanFyNTY5bXVoZXF2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c8NspwwVxwAiA/giphy.gif)
+
+
 ## Descripción del Reto
 
-**Objetivo:** construir un dashboard interactivo de aprendizaje sobre AgenticAI usando _Vibe Coding_ en [bolt.new](https://bolt.new).  
-**Duración:** 45 minutos • **Formato:** equipos de 4–6 personas.  
-**Contexto:** la universidad requiere una plataforma divertida y práctica para que estudiantes de nuevo ingreso exploren AgenticAI mediante descripciones en lenguaje natural (sin código específico).
+**Objetivo:** Construir una web/mobile app interactiva de aprendizaje sobre AgenticAI usando _Vibe Coding_ en [bolt.new](https://bolt.new).  
+**Duración:** ~60 minutos • **Formato:** equipos de 4 personas.  
+**Contexto:** Collective Academy requiere una plataforma lúdica, interactiva y práctica para que nuevos aprendedores/as exploren los conceptos vistos en el curso de AgenticAI. 
 
 ---
 
@@ -150,15 +153,7 @@ const designSystem = {
 **Prompt inicial sugerido**
 
 ```text
-Crea una aplicación web moderna y colorida llamada "AgenticHub" que incluya:
-- Home con animaciones suaves
-- Un dashboard con 4 módulos:
-  1) Quiz de fundamentos
-  2) Playground de prompts
-  3) Visualizador de conceptos RAG con ejemplos
-  4) Mini-simulador de flujos LangChain
-- Estilo bento grid, colores vibrantes, efectos hover y transiciones smooth
-- Sistema de puntos/badges por completar módulos
+JAJAJA Uds tienen que PROMPTEAR
 ```
 
 **Iteraciones progresivas**
@@ -182,31 +177,6 @@ Crea una aplicación web moderna y colorida llamada "AgenticHub" que incluya:
 - Pitch de 30 s
 
 ---
-
-## Recursos y Ejemplos
-
-### Banco de prompts de ejemplo
-
-```javascript
-// Quiz
-const quizData = [
-  "¿Qué es un agente en AgenticAI?",
-  "Diferencia entre RAG y fine-tuning",
-  "¿Cuándo usar LangChain vs. llamadas directas a API?"
-];
-
-// Conceptos
-const concepts = [
-  "Agente", "RAG", "MCP", "Prompt Engineering",
-  "Chain of Thought", "Few-shot Learning", "Embeddings"
-];
-
-// Flujos LangChain
-const workflows = [
-  "Pregunta → Búsqueda → Síntesis → Respuesta",
-  "Input → Validación → Procesamiento → Output"
-];
-```
 
 ### Vibe Coding Avanzado
 
@@ -246,33 +216,6 @@ const workflows = [
 - Notificaciones configurables
 - Idioma y región
 - Modo zen sin distracciones
-```
-
----
-
-## Métricas de Usabilidad
-
-```javascript
-const metricsToTrack = {
-  engagement: {
-    timeOnTask: "Tiempo por concepto",
-    clickDepth: "Profundidad de exploración",
-    returnRate: "Retorno al día siguiente",
-    featureUsage: "Herramientas más usadas"
-  },
-  learning: {
-    conceptMastery: "Mejora en quizzes",
-    promptQuality: "Evolución de calidad de prompts",
-    errorPatterns: "Zonas de confusión",
-    helpRequests: "Momentos de solicitud de ayuda"
-  },
-  satisfaction: {
-    rageClicks: "Señales de frustración",
-    completionRate: "Tasa de finalización",
-    shareRate: "Frecuencia de compartir logros",
-    customPaths: "Uso de rutas personalizadas"
-  }
-};
 ```
 
 ---
