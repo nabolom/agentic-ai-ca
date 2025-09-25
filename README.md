@@ -5,8 +5,11 @@
 
 ## Descripción del Reto
 
-**Objetivo:** Construir una web/mobile app interactiva de aprendizaje sobre AgenticAI usando _Vibe Coding_ en [bolt.new](https://bolt.new).  
+**Objetivo:** Tu equipo debe crear un prototipo funcional de una aplicación web que sirva como centro de aprendizaje personalizado sobre AgenticAI. 
+Imaginen que están construyendo una herramienta para futuros estudiantes del curso. Usando Vibe Coding, describirán en lenguaje natural lo que quieren lograr, sin preocuparse por el código específico. [bolt.new](https://bolt.new).  
+
 **Duración:** ~60 minutos • **Formato:** equipos de 4 personas.  
+
 **Contexto:** Collective Academy requiere una plataforma lúdica, interactiva y práctica para que nuevos aprendedores/as exploren los conceptos vistos en el curso de AgenticAI. 
 
 ---
