@@ -95,7 +95,12 @@ Motivación intrínseca, narrativa, recompensas frecuentes y dificultad adaptati
 **Prompt inicial sugerido**
 
 ```text
-JAJAJA Uds tienen que PROMPTEAR
+JAJAJA Uds tienen que PROMPTEAR... pero pueden preguntarle a ChatGPT/Claude/Gemini/Qwen/DeepSeek esto:
+
+"I want to build _____________ for ______________. 
+"Please ask me any questions you need to fully understand what I want to build, 
+"and then help me write a system prompt that will guide the AI to consistently use "the right tools, 
+frameworks, and coding styles for this kind of project."
 ```
 
 **Iteraciones progresivas**
